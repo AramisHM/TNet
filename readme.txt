@@ -45,7 +45,7 @@ The TNet SDK version 1.6.7
   The GUI version of CMake was tested with Windows 7 and 10.
 
   Ubuntu 16.04
-  Just go into the root directory and run this commands:
+  Just go into the root directory and run these commands:
 	~$ cmake ./
 	~$ make
   	
