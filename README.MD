@@ -1,5 +1,6 @@
 # TNet 1.6.7
 
+A simple ENet wrapper written in C++.
 
 ### How to start
 
