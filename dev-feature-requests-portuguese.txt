@@ -1,0 +1,6 @@
+*Existe a possibilidade de se o servidor estiver atendendo a muitos clientes alguma mensagen de ping de um dos clientes passar por despercebido (acontence quando o servidor atenda a uma menssagem e nao a outra para listener). Neste caso é normal, estamos lidando com UDP, é possível corrigir isso fazendo um mecanismo de tentativa, por exemplo 200 tentativas ate o servidor responder, senão damos ele como desativado 
+*Tratar pacotes do enet corretamente de forma a não vazar memoria, ou seja, na hora que for necessario, desalocar pacotes (nao estou certo se a atual versao faz)
+*Esvaziar a pilha do servidor ao destrui-lo
+*Informar tamanho de cada mensagem na pilha para depois poder ler eles da forma correta
+*Talvez trocar a pilha por uma lista dinamica?
+*Se continuar com pilha adotar uma politca caso a pilha ficar cheia para inserir as novas mensagens no lugar das mensagens mais antigas da pilha?

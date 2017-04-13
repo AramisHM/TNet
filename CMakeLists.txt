@@ -1,0 +1,15 @@
+﻿cmake_minimum_required (VERSION 2.8.11)
+PROJECT (TNet)
+
+SET(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+SET(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
+SET(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+
+
+OPTION (SAMPLES "Build sample applications" ON)
+
+ADD_SUBDIRECTORY(source)
+
+if (SAMPLES)
+    add_subdirectory (source/examples)
+endif ()

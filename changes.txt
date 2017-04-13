@@ -1,0 +1,7 @@
+ahmln-x.y.z.a -
+	> 
+
+ahmln-1.6.7.0 -
+	> CMake scripts were fixed to work on Ubuntu 16.04.
+	> Removed Bully Ellection example due to unnecessary complexity.
+	> Some minor changes on the readme.txt.
